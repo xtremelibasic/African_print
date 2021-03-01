@@ -3,9 +3,9 @@
     <head>
         <title>Afro Design</title>
         <script src="files/jquery-3.2.1.min.js"></script>
+        <link rel="shortcut icon" type="image/png" href="img/favicon-32x32.png">
         <script>
 			function play0(){
-				//Potential Error -> Incorrect File Referencing
 				var audio = document.getElementById("audio0");
 				audio.play();
 				audio.volume=0.3;
@@ -18,10 +18,10 @@
         <!-- This is the navigation bar-->
         <div class="nav">
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
             </ul>
             <input type="checkbox" id="check">
             <label for="check" class="checkbtn"><i class="fas fa-bars"></i></label>
@@ -145,43 +145,6 @@
             <div class="container10"></div>
             <div class="container11"></div>
         </div>
-        <!-- This is where the service page starts-->
-        <div class="services" id="services">
-            <div class="section1" id="service">
-                <i class="fas fa-concierge-bell"></i>
-                <h2>Lorem Ipsum</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            </div>
-            <div class="section2" id="service">
-                <i class="fas fa-book-open"></i>
-                <h2>Lorem Ipsum</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            </div>
-            <div class="section3" id="service">
-                <i class="fas fa-truck-loading"></i>
-                <h2>Lorem Ipsum</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            </div>
-        </div>
-        <!-- This is where the About page starts-->
-        <div class="about" id="about">
-            <div class="main">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus eius sequi eos esse dolor voluptas ad fuga ut voluptatum iusto. Similique nobis consequuntur veniam provident iste pariatur, explicabo cum? Alias!</p>
-            </div>
-        </div>
-        <!-- This is where the contact page starts-->
-        <div class="contact" id="contact">
-            <h1>Send Us A message</h1>
-            <form  class="form" id="form" action="https://www.freecodecamp.com/email-submit" method="post">
-                <label for="name"></label>
-                <input class="name" id="name" type="text" placeholder="Your name"><br>
-                <label for="email"></label>
-                <input class="email" id="email" type="email" name="email" placeholder="Your email" required aria-required="true"><br>
-                <input class="submit" id="submit" type="submit">
-                <label for="message"></label>
-                <textarea class="message" id="message" rows="4" cols="50" name="comment" placeholder="Send us a message please..." form="form" required aria-required="true"></textarea>
-            </form>
-        </div>
         <a href="#"><div class="help">
             <div class="question-mark">?</div>
         </div></a>
@@ -196,3 +159,10 @@
         </div>
     </body>
 </html>
+<!-- To Do List
+- Add an FAQ page
+- Add individual pages for each service
+- link social media and email
+- Fix the contact page
+- Develope the about page
+- Make hover effects dependent(presently every list item is affected when hover effects applied to just one item)-->
