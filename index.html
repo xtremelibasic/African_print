@@ -8,7 +8,7 @@
 			function play0(){
 				var audio = document.getElementById("audio0");
 				audio.play();
-				audio.volume=0.3;
+				audio.volume=1;
 			};
         </script>
         <script src="https://kit.fontawesome.com/9bb64d8c48.js" crossorigin="anonymous"></script>
@@ -32,9 +32,9 @@
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus laudantium dignissimos beatae. Nobis iusto at itaque deleniti! Adipisci sapiente odio dolores ea. Praesentium rem quia excepturi incidunt cumque ex ratione.</p>
         </div>
         <audio id="audio0" src="audio/beads_short.mp3"></audio>
-        <div class="functional-design" onmouseover="play0()">
+        <div class="functional-design">
             <div class="container0"></div>
-            <div class="container1">
+            <div class="container1" onmouseover="play0()";>
                 <div class="line1"></div>
                 <div class="line2"></div>
                 <div class="line3"></div>

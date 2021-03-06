@@ -77,7 +77,7 @@ body{
     top:-42px;
     right:290px;
 }
-.functional-design:hover{
+.functional-design .container1:hover{
     transform:rotate(-10deg);
     transition:transform .5s linear;
 }
@@ -678,6 +678,14 @@ body{
     left:4px;
     z-index:55;
 }
+.functional-design:hover > .container5{
+    transform:rotate(10deg);
+    transition:transform 1.5s ease-in-out;
+}
+.functional-design:hover > .container4{
+    transform:scale(1.05);
+    transition:transform 1s ease-in-out;
+}
 .functional-design .container5 .circle2{
     height:20px;
     width:20px;
@@ -915,7 +923,7 @@ body{
     width:500px;
     margin-bottom:50px;
     border: 10px solid;
-    border-image-slice: 1;
+    border-image-slice: 2;
     border-width: 5px;
     border-image-source: linear-gradient(to left, #c8282f, #dc942e);
 }
@@ -926,7 +934,7 @@ body{
     left:0px;
     top:330px;
 }
-.contact form .submit:hover, .contact form .submit:active{
+.submit:hover, .submit:active{
     background-color:#dc942e;
     border:5px solid #dc942e;
     color:white;
