@@ -27,7 +27,8 @@ body{
 }
 .nav ul li a:hover, .nav ul li a:active{
     color:#c8282f;
-    font-size:1.3em;
+    font-size:1.1em;
+    transition: all 0.2s linear;
 }
 .checkbtn{
     font-size:30px;
@@ -935,9 +936,9 @@ body{
     top:330px;
 }
 .submit:hover, .submit:active{
-    background-color:#dc942e;
+    background:#dc942e;
     border:5px solid #dc942e;
-    color:white;
+    color:black;
     transition:all .5s;
 }
 .contact form .message{
